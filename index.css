@@ -1,0 +1,74 @@
+ #myContainer {
+            width: 400px;
+            height: 400px;
+            position: relative;
+            background-image: url('angry2.jpg');
+            background-size: 400px 400px;
+            background-repeat: no-repeat;
+            margin-top: 18px;
+            margin-left: 480px;
+        }
+        
+        #myAnimation {
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            background-color: red;
+            vertical-align: middle;
+            text-align: center;
+            transition: all 1s;
+
+
+        }
+        
+        .attack {
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            vertical-align: middle;
+            text-align: center;
+            display: none;
+        }
+        
+        .boom {
+            background-image: url('explosion1.gif');
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 50px;
+            width: 50px;
+            position: absolute;
+            display: block;
+        }
+        
+        button {
+            margin: 10px 5px;
+            padding: 10px 20px;
+            font-size: 20px;
+            text-align: center;
+            cursor: pointer;
+            outline: none;
+            background-color: orange;
+            border: rgba();
+            border-radius: 10px;
+            box-shadow: 0 9px #999;
+            width: 152px;
+            
+        }
+        
+        button:hover {
+            background-color: #E67E22;
+            color: white;
+        }
+        
+        button:active {
+            background-color: #3e8e41;
+            box-shadow: 0 5px #666;
+            transform: translateY(4px);
+        }
+   
+        html{
+            display: table-cell;
+            text-align: center;
+            vertical-align: middle;
+        }
